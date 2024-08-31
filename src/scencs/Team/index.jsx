@@ -6,7 +6,6 @@ import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettin
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import Header from "../../components/Header";
-import { render } from "@fullcalendar/core/preact.js";
 
 const Team = () => {
   const theme = useTheme();
@@ -59,8 +58,7 @@ const Team = () => {
           >
             {access === "admin" && <AdminPanelSettingsOutlinedIcon />}
             {access === "manager" && <SecurityOutlinedIcon />}
-            {access === "user" && <AdminPanelSettingsOutlinedIcon />}
-            {access === "admin" && <LockOpenOutlinedIcon />}
+            {access === "user" && <LockOpenOutlinedIcon />}
             <Typography color={colors.grey[100]} sx={{ ml: "5px" }}>
               {access}
             </Typography>

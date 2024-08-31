@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import TopBar from "./scencs/global/TopBar";
 import SideBar from "./scencs/global/SideBar";
 import DashBoard from "./scencs/dashboard";
-// import Team from "./scencs/team";
+import Team from "./scencs/team";
 // import Invoices from "./scencs/invoices";
 // import Contacts from "./scencs/contacts";
 // import Bar from "./scencs/bar";
@@ -28,7 +28,7 @@ function App() {
             <TopBar />
             <Routes>
               <Route path="/" element={<DashBoard />} />
-              {/* <Route path="/team" element={<Team />} /> */}
+              <Route path="/team" element={<Team />} />
               {/* <Route path="/contacts" element={<Contacts />} /> */}
               {/* <Route path="/invoices" element={<Invoices />} /> */}
               {/* <Route path="/form" element={<Form />} /> */}

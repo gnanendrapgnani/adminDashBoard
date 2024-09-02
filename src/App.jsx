@@ -8,7 +8,7 @@ import Team from "./scencs/team";
 import Invoices from "./scencs/invoices";
 import Contacts from "./scencs/contacts";
 // import Bar from "./scencs/bar";
-// import Form from "./scencs/form";
+import Form from "./scencs/form";
 // import Line from "./scencs/line";
 // import Pie from "./scencs/pie";
 // import FAQ from "./scencs/faq";
@@ -31,7 +31,7 @@ function App() {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
-              {/* <Route path="/form" element={<Form />} /> */}
+              <Route path="/form" element={<Form />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}

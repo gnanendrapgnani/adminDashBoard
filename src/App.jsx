@@ -13,7 +13,7 @@ import Form from "./scencs/form";
 // import Pie from "./scencs/pie";
 // import FAQ from "./scencs/faq";
 // import Geograpy from "./scencs/geograpy";
-// import Calendar from "./scencs/calendar";
+import Calendar from "./scencs/Calendar/index";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -37,7 +37,7 @@ function App() {
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/faq" element={<FAQ />} /> */}
               {/* <Route path="/geograpy" element={<Geograpy />} /> */}
-              {/* <Route path="/calendar" element={<Calendar />} /> */}
+              <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
         </div>
